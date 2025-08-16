@@ -1,0 +1,21 @@
+/* theme.css */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #2563eb; /* blue */
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --primary-color: #3b82f6;
+}
+
+/* Apply them globally */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
