@@ -1,0 +1,17 @@
+/* Stylish sidebar scrollbar */
+.lulu::-webkit-scrollbar {
+  width: 8px;
+}
+.lulu::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #6d28d9 0%, #ec4899 100%);
+  border-radius: 8px;
+}
+.lulu::-webkit-scrollbar-track {
+  background: #23242a;
+}
+
+/* Firefox */
+.lulu {
+  scrollbar-width: thin;
+  scrollbar-color: #6d28d9 #23242a;
+}
